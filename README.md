@@ -17,6 +17,8 @@ Add these repositories to the android part of your app build.gradle
     
 Add This line of code to the dependencies in your build.gradle (replace x.x.x with newest version below in green)
 
+    implementation 'com.github.JordanZimmitti:JZDateTime:Tag'
+[![](https://jitpack.io/v/JordanZimmitti/JZDateTime.svg)](https://jitpack.io/#JordanZimmitti/JZDateTime)
 
 
 #### Using JZDate
