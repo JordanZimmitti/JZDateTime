@@ -28,8 +28,8 @@ The date can be parsed in three different ways: AMERICAN, EUROPEAN, REVERSED
     val date = jzDate.getDate(JZDateFormat.REVERSED) 
     
 #### Getting The Day, Month, Or Year From A Full Date
-The first parameter is the full date string 
-The second parameter is the format of the inputted date string
+The first parameter is the full date string<br/> 
+The second parameter is the format of the inputted date string<br/>
 
     // Gets The Day, Month, And Year From The Full Date//
     val day   = JZDate.fullDateToDay("05/05/2005", JZDateFormat.AMERICAN)
@@ -37,7 +37,7 @@ The second parameter is the format of the inputted date string
     val year  = JZDate.fullDateToYear("05/05/2005", JZDateFormat.AMERICAN)
     
 #### Getting The Current Date
-The parameter is what format the current date should be in
+The parameter is what format the current date should be in<br/>
 
     // Gets The Current Date In The Different Formats//
     val americanDate = JZDate.getCurrentDate(JZDateFormat.AMERICAN)
@@ -52,9 +52,9 @@ The parameter is what format the current date should be in
     val currentYear  = JZDate.getCurrentYear()
     
 #### Switching A Date Format
-The first parameter is the date string
-The second parameter is the format the inputted date is currently in
-The third parameter is the format the inputted date should be switched to
+The first parameter is the date string<br/>
+The second parameter is the format the inputted date is currently in<br/>
+The third parameter is the format the inputted date should be switched to<br/>
 
     // Switches The Date Format From 10/10/2010 to 2010/10/10//
     val switchedDate = JZDate.switchDateFormat("10/10/2010", JZDateFormat.AMERICAN, JZDateFormat.REVERSED)
