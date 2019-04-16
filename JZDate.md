@@ -21,10 +21,10 @@ The date can be parsed in three different ways: AMERICAN, EUROPEAN, REVERSED
     // Gets Date In Format MM/DD/YYYY//
     val date = jzDate.getDate(JZDateFormat.AMERICAN) 
     
-    // Gets Date In Format MM/DD/YYYY//
+    // Gets Date In Format DD/MM/YYYY//
     val date = jzDate.getDate(JZDateFormat.EUROPEAN) 
     
-    // Gets Date In Format MM/DD/YYYY//
+    // Gets Date In Format YYYY/MM/DD//
     val date = jzDate.getDate(JZDateFormat.REVERSED) 
     
 #### Getting The Day, Month, Or Year From A Full Date
