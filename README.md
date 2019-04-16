@@ -1,7 +1,7 @@
 # JZDateTime
 Library That Makes Handling Dates And Times Easier
 
-#### How To Access JZRecyclerAdapter In Your Android App
+#### How To Access JZDateTime In Your Android App
 
 Add these repositories to the android part of your app build.gradle
 
