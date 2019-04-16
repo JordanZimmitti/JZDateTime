@@ -22,9 +22,9 @@ Add This line of code to the dependencies in your build.gradle (replace x.x.x wi
 #### Using JZDate
 
 The full documentation: 
-[JZDate Library](https://github.com/JordanZimmitti/JZDateTime/blob/master/JZDate%20DOC)
+[JZDate Library](https://github.com/JordanZimmitti/JZDateTime/blob/master/JZDate.md)
 
 #### Using JZTime
 
 The full documentation:
-[JZTime Library](https://github.com/JordanZimmitti/JZDateTime/blob/master/JZTime%20DOC)
+[JZTime Library](https://github.com/JordanZimmitti/JZDateTime/blob/master/JZTime.md)
