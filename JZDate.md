@@ -29,7 +29,7 @@ The date can be parsed in three different ways: AMERICAN, EUROPEAN, REVERSED
     
 #### Getting The Day, Month, Or Year From A Full Date
 The first parameter is the full date string 
-the second parameter is the format of the inputted date string
+The second parameter is the format of the inputted date string
 
     // Gets The Day, Month, And Year From The Full Date//
     val day   = JZDate.fullDateToDay("05/05/2005", JZDateFormat.AMERICAN)
