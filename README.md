@@ -21,7 +21,7 @@ Add This line of code to the dependencies in your build.gradle (replace x.x.x wi
 
 #### Using JZDate
 
-The full documentation of the JZDate library: 
+The full documentation: 
 [JZDate Library](https://github.com/JordanZimmitti/JZDateTime/blob/master/JZTIME%20DOC)
 
 #### Using JZTime
