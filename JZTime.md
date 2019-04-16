@@ -21,7 +21,7 @@ The second way is
     jzTime.startTimeMinute = 5
     
 #### Parsing The End-Time And Start-Time
-The parameter is what format the time should be in<br/>
+The parameter is the format for the returned time<br/>
 
     // Gets The Start-Time In Format HH:mm//
     jzTime.getStartTime(JZTimeFormat.MILITARY)
@@ -38,3 +38,33 @@ The parameter is what format the time should be in<br/>
 
     // Gets The Time Difference In Minutes//
     jzTime.getTimeDifferenceInMin()
+    
+#### Getting The Hour From The Full Time
+The first parameter is the full time string<br/>
+The second parameter is the format for the returned hour<br/>
+
+    // Gets The Hour From The Full Time//
+    JZTime.fullTimeToHour("13:05", JZTimeFormat.STANDARD)
+    
+#### Getting The Minute From The Full Time
+The parameter is the full time string<br/>
+
+    // Gets The Minute From The Full Time
+    JZTime.fullTimeToMinute("13:05")
+    
+#### Getting The Current Hour
+The parameter is the format for the returned hour<br/>
+
+    // Gets The Current Hour//
+    JZTime.getCurrentHour(JZTimeFormat.STANDARD)
+    
+#### Getting The Current Minute
+    
+    // Gets The Current Minute//
+    JZTime.getCurrentMinute()
+    
+#### Getting The Current Time
+The parameter is the format for the returned time<br/>
+
+    // Gets The Current Time//
+    JZTime.getCurrentTime(JZTimeFormat.MILITARY)
